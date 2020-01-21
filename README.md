@@ -1,2 +1,2 @@
 # Udacity-Data-Engineering
-Udacity Data Engineering Nanodegree Projects 
+Projects and resources developed in the [DEND Nanodegree] from Udacity.
