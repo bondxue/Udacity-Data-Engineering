@@ -30,11 +30,7 @@ In this part, I am helping the music streaming startup, Sparkify, to move their 
 I am tasked with <u>building an ETL pipeline that extracts their data from **S3**, stages them in **Redshift**, and transforms data into a set of **dimensional tables**</u> for the analytics team to continue finding insights in what songs their users are listening to. 
 
 ## Project 4: [Data Lake - Spark](https://github.com/bondxue/Udacity-Data-Engineering/tree/master/Data-Lake-with-Spark)
-Scaled up the current ETL pipeline by moving the data warehouse to a data lake. Skills include:
+Scaled up the current ETL pipeline by moving the data warehouse to a data lake. 
 
-+ Create an EMR Hadoop Cluster
-+ Further develop the ETL Pipeline copying datasets from S3 buckets, data processing using Spark and writing to S3 buckets 
-+ using efficient partitioning and parquet formatting.
-+ Fast-tracking the data lake buildout using (serverless) AWS Lambda and cataloging tables with AWS Glue Crawler.
+In this part, I further develop the ETL Pipeline copying datasets from S3 buckets, process the data into analytics tables using Spark and  load them back into S3. The Spark process is deployed on a cluster using AWS.
 
-Technologies used: Spark, S3, EMR, Athena, Amazon Glue, Parquet.
