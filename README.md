@@ -22,13 +22,12 @@ Proficiencies used: Python, Apache Cassandra, Denormalization
 
 ## Project 3: [Data Warehouse - Amazon Redshift](https://github.com/bondxue/Udacity-Data-Engineering/tree/master/Data-Warehouse-with-AWS)
 
-Created a database warehouse utilizing Amazon Redshift. Skills include:
+In this part, I am helping the music streaming startup, Sparkify, to move their song database onto the cloud. Their data is stored in S3:
 
-+ Creating a Redshift Cluster, IAM Roles, Security groups.
-+ Develop an ETL Pipeline that copies data from S3 buckets into staging tables to be processed into a star schema
-+ Developed a star schema with optimization to specific queries required by the data analytics team.
++ one is  in a directory of JSON logs on user activity on the app
++ the other is in a directory with JSON metadata on the songs in their app
 
-Proficiencies used: Python, Amazon Redshift, aws cli, Amazon SDK, SQL, PostgreSQL
+I am tasked with <u>building an ETL pipeline that extracts their data from **S3**, stages them in **Redshift**, and transforms data into a set of **dimensional tables**</u> for the analytics team to continue finding insights in what songs their users are listening to. 
 
 ## Project 4: [Data Lake - Spark](https://github.com/bondxue/Udacity-Data-Engineering/tree/master/Data-Lake-with-Spark)
 Scaled up the current ETL pipeline by moving the data warehouse to a data lake. Skills include:
